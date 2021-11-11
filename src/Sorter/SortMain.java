@@ -12,9 +12,14 @@ public class SortMain {
             intArgs[i] = Integer.parseInt(args[i]);
         }
 
-        sorter.sort(intArgs);
+        int[] sortedList = sorter.sort(intArgs);
 
-        // for (int i : intArgs) {
+        System.out.println("Sorterad lista: "); // bara printning
+        for (int number : sortedList) {
+            System.out.println("nummer: " + number);
+        }
+
+        // for (int i : intArgs)
         // System.out.println(i);
         // }
 

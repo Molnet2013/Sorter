@@ -4,15 +4,12 @@ import java.util.Arrays;
 
 public class Sorter {
 
-    public int[] sort(int[] unsorted) {
+    public static int[] sort(int[] unsorted) {
 
         Arrays.sort(unsorted); // sorterar listan
 
-        // System.out.println("Sorterad lista: "); // bara printning
-        // for (int number : unsorted) {
-        // System.out.println("nummer: " + number);
-        // }
-        // int[] sortedList = unsorted;
+        // int[] sortedList = unsorted; //står return unsorted i uppgiften, fast listan
+        // nu är sorterad
         return unsorted;
     }
 }
