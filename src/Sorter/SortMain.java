@@ -2,16 +2,18 @@ package Sorter;
 
 public class SortMain {
     public static void main(String[] args) throws Exception {
-    
-    int[] intArgs = new int[args.length];
-        
-    for (int i = 0; i < args.length; i++) {
-        intArgs[i] = Integer.parseInt(null, [i]);
-    } 
 
+        int[] intArgs = new int[args.length];
 
-    // Sorter sorter = new Sorter();
-    // sorter.sort(args);
-        
+        for (int i = 0; i < args.length; i++) {
+            intArgs[i] = Integer.parseInt(args[i]);
+        }
+        for (int i : intArgs) {
+            System.out.println(i);
+        }
+
+        // Sorter sorter = new Sorter();
+        // sorter.sort(args);
+
     }
 }
