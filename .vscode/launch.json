@@ -18,5 +18,12 @@
             "projectName": "sorter_e3c91c4c",
             "args": ["76", "11", "-55", "2", "16", "-21", "7", "88"]
         },
+        {
+            "type": "java",
+            "name": "Launch SortTest",
+            "request": "launch",
+            "mainClass": "Test.SortTest",
+            "projectName": "sorter_e3c91c4c"
+        }
     ]
 }
