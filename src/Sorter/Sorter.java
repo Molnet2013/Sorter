@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Sorter {
 
-    public static int[] sort(int[] unsorted) {
+    public int[] sort(int[] unsorted) {
 
         Arrays.sort(unsorted); // sorterar listan
 

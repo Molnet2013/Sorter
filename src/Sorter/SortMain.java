@@ -1,7 +1,7 @@
 package Sorter;
 
 public class SortMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // throws Exception framför {, om något inte skulle fungera
 
         int[] intArgs = new int[args.length];
         Sorter sorter = new Sorter();
