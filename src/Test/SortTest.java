@@ -11,9 +11,9 @@ public class SortTest {
     }
 
     public static boolean test1(Sorter sorter) {
-        int[] intArray = { 1, 3, 2 };
+        int[] intArray = { 1, -3, 2 };
         int[] acctual = sorter.sort(intArray);
-        int[] expected = { 1, 2, 3 };
+        int[] expected = { -3, 1, 2 };
 
         for (int i = 0; i < acctual.length; i++) {
             if (acctual[i] != expected[i]) {
